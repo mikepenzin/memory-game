@@ -1,0 +1,17 @@
+.main-view-wrapper {
+    margin: 10vh;
+}
+
+h2 {
+    text-align: center;
+}
+
+.message-container {
+    padding: 2vh 2vw;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+.bg-info {
+    background-color: rgba(217, 237, 247, 0.4);
+}

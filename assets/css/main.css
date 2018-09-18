@@ -1,0 +1,10 @@
+html, body {
+    font-family: 'Gamja Flower', cursive;
+    background-color: #f3f0eb;
+    color: #666;
+}
+
+.btn-primary{
+    background-color: rgba(0,114,206, 0.9);
+    font-size: 2em;
+}

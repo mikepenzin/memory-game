@@ -1,0 +1,25 @@
+.green  {
+    background-color: #5cb85c;
+    color: #f3f0eb;
+}
+
+.red  {
+    background-color: #d9534f;
+    color: #f3f0eb;
+}
+
+.smile-icon {
+    font-size: 6em;
+}
+.modal-footer, .modal-header {
+    border: none;
+}
+
+.close-btn {
+    font-size: 3em;
+    cursor: pointer;
+}
+
+button.close, button.close:hover {
+    color: white;
+}
