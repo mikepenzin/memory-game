@@ -27,7 +27,7 @@
     animation-name: flipInY;
 	-webkit-backface-visibility: visible !important;
 	backface-visibility: visible !important;
-	animation-duration: .75s;
+	animation-duration: 1s;
     pointer-events: none;
 }
 
@@ -50,7 +50,7 @@
     animation-name: flipInY;
 	-webkit-backface-visibility: visible !important;
 	backface-visibility: visible !important;
-	animation-duration: .75s;
+	animation-duration: 1s;
     pointer-events: none;
 }
 
