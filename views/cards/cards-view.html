@@ -1,15 +1,16 @@
 <link href="views/cards/cards-style.css" rel="stylesheet">
 
-<div ng-if="ctrl.getTimeData()">    
+<div ng-if="ctrl.getTimeData()" class="content-in">    
 
     <memory-game-timer maxtimetowin="ctrl.getTimeData"></memory-game-timer>
 
-    <div class="container-fluid row" ng-class="{ 'not-selectable' : !ctrl.isSelectable }">
+    <div class="container-fluid row content-in" ng-class="{ 'not-selectable' : !ctrl.isSelectable }">
         <div ng-repeat="image in ctrl.imagesIDs">
             <div class="clearfix" ng-if="$index % 4 == 0"></div>
             <div class="col-xs-3 image-wrapper" ng-click="ctrl.selectImage(image)" ng-class="{ 'not-selectable' : ctrl.imageData[image].isAlreadySelected }">
                 <div class="" ng-class="{ 'layer' : !ctrl.imageData[image].isAlreadySelected }" ng-class-odd="'layer-blue'" ng-class-even="'layer-yellow'"></div>
-                <img ng-src="{{ ctrl.imageData[image].image }}" id="{{image}}" class="img-responsive img-rounded" ng-class="{ 'show-img' : ctrl.imageData[image].isAlreadySelected }">
+                <img ng-src="{{ ctrl.imageData[image].image }}" id="{{image}}" class="img-responsive img-rounded" 
+                     ng-class="{ 'show-img' : ctrl.imageData[image].isAlreadySelected }">
             </div>
         </div>
     </div>
